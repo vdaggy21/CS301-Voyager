@@ -1,0 +1,30 @@
+#logo {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 30px;
+    background-color: black;
+    font-family: impact, arial;
+    text-align: center;
+    font-size: 30px;
+}
+li {
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    color: green;
+}
