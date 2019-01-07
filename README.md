@@ -1,2 +1,2 @@
 # CS301-Voyager
-Our code for the Voyager game projest
+Our code for the Voyager game project
