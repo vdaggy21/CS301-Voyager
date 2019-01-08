@@ -9,9 +9,11 @@ body {
     margin: 0;
     border: 0;
 }
+
 p, h1, h2, a, img {
     padding: 10px;
 }
+
 ul {
     margin: 0;
     border: 0;
