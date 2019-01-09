@@ -54,3 +54,21 @@ li a:hover:not(.active) {
 .active {
     color: green;
 }
+/*Created img class with CSS styling for stacking on game page - VLD*/
+img {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+  }
+  .bg {
+    z-index: 1;
+  }
+  .bg2 {
+    z-index: 2;
+  }
+  .bg3 {
+    z-index: 3;
+  }
+  .voy {
+    z-index: 4;
+  }
