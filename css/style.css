@@ -1,21 +1,18 @@
 body {
     padding-top: 30px;
+    margin-left: 15px;
     border: 0;
     background-color: black;
     color: white;
 }
 
+/*Removes the link's change in appearence of underline and blue color and replaces with white color*/
 a{
-    margin-left: 10px;
     text-decoration: none;
     color: white;
 }
 
-ul {
-    margin: 0;
-    padding:0;
-}
-
+/*Sets the location of the nav and gives it a bottom border (visual indication that it is seperate from page body)*/
 nav {
     position: fixed;
     width: 100%;
@@ -24,9 +21,11 @@ nav {
     border-bottom: solid grey 2px;
 }
 
+/*Sets up the general apperance of the unordered list in nav*/
 nav ul {
     list-style-type: none;
     padding: 5px;
+    margin: 0;
     background-color: black;
     font-family: impact, arial;
     text-align: right;
@@ -34,24 +33,26 @@ nav ul {
     min-width: 100%;
 }
 
-li {
+nav ul li {
     display: inline;
 }
 
-li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     padding: 5px 15px;
     margin-right: 20px;
 }
 
+.active {
+    color: darkgoldenrod;
+}
+
+/*   When the user hovers the mouse over a list item link that isn't active, changes background to darkgoldenrod  */
 li a:hover:not(.active) {
     background-color: darkgoldenrod;
 }
 
-.active {
-    color: darkgoldenrod;
-}
 /*Created img classes with CSS styling for stacking on game page - VLD*/
 img {
     position: fixed;
@@ -73,11 +74,14 @@ img.bg3 {
 
 img.voy {
     z-index: 4;
-    left: 47px;
+    height: 150px;
+    top: 270px;
+    left: 470px;
 }
 
 img#logo {
-    top: 0px;
+    height:35px;
+    top: 5px;
     left: 10px;
     z-index: 99;
 }
