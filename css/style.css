@@ -1,41 +1,18 @@
 body {
     padding-top: 30px;
-<<<<<<< HEAD
-=======
     margin-left: 15px;
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
     border: 0;
     background-color: black;
     color: white;
 }
 
-<<<<<<< HEAD
-a{
-    margin-left: 10px;
-    text-decoration: none;
-    color: white;
-=======
-<<<<<<< HEAD
 /*Removes the link's change in appearence of underline and blue color and replaces with white color*/
 a{
     text-decoration: none;
     color: white;
-=======
-p, h1, h2, a, img {
-    padding: 10px;
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
 }
 
-ul {
-    margin: 0;
-    padding:0;
->>>>>>> f240c26e91a1db1c23f2c3910b0e0f7d779d58c2
-}
-
-<<<<<<< HEAD
-=======
 /*Sets the location of the nav and gives it a bottom border (visual indication that it is seperate from page body)*/
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
 nav {
     position: fixed;
     width: 100%;
@@ -44,10 +21,7 @@ nav {
     border-bottom: solid grey 2px;
 }
 
-<<<<<<< HEAD
-=======
 /*Sets up the general apperance of the unordered list in nav*/
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
 nav ul {
     list-style-type: none;
     padding: 5px;
@@ -68,23 +42,17 @@ nav ul li a {
     text-decoration: none;
     padding: 5px 15px;
     margin-right: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .active {
     color: darkgoldenrod;
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
 }
 
 /*   When the user hovers the mouse over a list item link that isn't active, changes background to darkgoldenrod  */
 li a:hover:not(.active) {
     background-color: darkgoldenrod;
-<<<<<<< HEAD
-=======
 }
 
-<<<<<<< HEAD
 /*Created img classes with CSS styling for stacking on game page - VLD*/
 img {
     position: fixed;
@@ -98,7 +66,6 @@ img.bg {
 
 img.bg2 {
     z-index: 2;
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
 }
 
 img.bg3 {
@@ -118,60 +85,3 @@ img#logo {
     left: 10px;
     z-index: 99;
 }
-=======
-.active {
-<<<<<<< HEAD
-    color: darkgoldenrod;
-}
-/*Created img classes with CSS styling for stacking on game page - VLD*/
-img {
-    position: fixed;
-    top: 50px;
-    left: 0px;
-}
-
-img.bg {
-    z-index: 1;
-}
-
-img.bg2 {
-    z-index: 2;
-}
-
-img.bg3 {
-    z-index: 3;
-}
-
-img.voy {
-    z-index: 4;
-    left: 47px;
-}
-
-img#logo {
-    top: 0px;
-    left: 10px;
-    z-index: 99;
-}
-=======
-    color: green;
-}
-/*Created img class with CSS styling for stacking on game page - VLD*/
-img {
-    position: fixed;
-    top: 40px;
-    left: 50px;
-  }
-  .bg {
-    z-index: 1;
-  }
-  .bg2 {
-    z-index: 2;
-  }
-  .bg3 {
-    z-index: 3;
-  }
-  .voy {
-    z-index: 4;
-  }
->>>>>>> f240c26e91a1db1c23f2c3910b0e0f7d779d58c2
->>>>>>> 18abe3648ccb1745eee62224f1031ea4bc868c1c
