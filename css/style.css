@@ -6,10 +6,21 @@ body {
     color: white;
 }
 
+<<<<<<< HEAD
 /*Removes the link's change in appearence of underline and blue color and replaces with white color*/
 a{
     text-decoration: none;
     color: white;
+=======
+p, h1, h2, a, img {
+    padding: 10px;
+}
+
+ul {
+    margin: 0;
+    border: 0;
+    padding:0;
+>>>>>>> f240c26e91a1db1c23f2c3910b0e0f7d779d58c2
 }
 
 /*Sets the location of the nav and gives it a bottom border (visual indication that it is seperate from page body)*/
@@ -53,6 +64,7 @@ li a:hover:not(.active) {
     background-color: darkgoldenrod;
 }
 
+<<<<<<< HEAD
 /*Created img classes with CSS styling for stacking on game page - VLD*/
 img {
     position: fixed;
@@ -85,3 +97,26 @@ img#logo {
     left: 10px;
     z-index: 99;
 }
+=======
+.active {
+    color: green;
+}
+/*Created img class with CSS styling for stacking on game page - VLD*/
+img {
+    position: fixed;
+    top: 40px;
+    left: 50px;
+  }
+  .bg {
+    z-index: 1;
+  }
+  .bg2 {
+    z-index: 2;
+  }
+  .bg3 {
+    z-index: 3;
+  }
+  .voy {
+    z-index: 4;
+  }
+>>>>>>> f240c26e91a1db1c23f2c3910b0e0f7d779d58c2
