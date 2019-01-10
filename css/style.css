@@ -1,54 +1,87 @@
-#logo {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
+body {
+    padding-top: 30px;
+    margin-left: 15px;
+    border: 0;
+    background-color: black;
+    color: white;
 }
 
-body {
-    padding-top: 20px;
-    margin: 0;
-    border: 0;
+/*Removes the link's change in appearence of underline and blue color and replaces with white color*/
+a{
+    text-decoration: none;
+    color: white;
 }
-p, h1, h2, a, img {
-    padding: 10px;
-}
-ul {
-    margin: 0;
-    border: 0;
-    padding:0;
-}
+
+/*Sets the location of the nav and gives it a bottom border (visual indication that it is seperate from page body)*/
 nav {
     position: fixed;
-    top: 0;
-    padding: 0;
     width: 100%;
-
+    top: 0;
+    left: 0;
+    border-bottom: solid grey 2px;
 }
+
+/*Sets up the general apperance of the unordered list in nav*/
 nav ul {
     list-style-type: none;
     padding: 5px;
+    margin: 0;
     background-color: black;
     font-family: impact, arial;
-    text-align: left;
+    text-align: right;
     font-size: 30px;
     min-width: 100%;
 }
 
-li {
+nav ul li {
     display: inline;
 }
 
-li a {
+nav ul li a {
     color: white;
     text-decoration: none;
     padding: 5px 15px;
-    display: inline;
-}
-
-li a:hover:not(.active) {
-    background-color: green;
+    margin-right: 20px;
 }
 
 .active {
-    color: green;
+    color: darkgoldenrod;
+}
+
+/*   When the user hovers the mouse over a list item link that isn't active, changes background to darkgoldenrod  */
+li a:hover:not(.active) {
+    background-color: darkgoldenrod;
+}
+
+/*Created img classes with CSS styling for stacking on game page - VLD*/
+img {
+    position: fixed;
+    top: 50px;
+    left: 0px;
+}
+
+img.bg {
+    z-index: 1;
+}
+
+img.bg2 {
+    z-index: 2;
+}
+
+img.bg3 {
+    z-index: 3;
+}
+
+img.voy {
+    z-index: 4;
+    height: 150px;
+    top: 270px;
+    left: 470px;
+}
+
+img#logo {
+    height:35px;
+    top: 5px;
+    left: 10px;
+    z-index: 99;
 }
