@@ -62,14 +62,23 @@ img {
 
 img.bg {
     z-index: 1;
+    animation: mid 120s linear infinite normal;
 }
-
+@keyframes mid{
+    0% {transform: translate(0,0);}
+    100% {transform: translate(-100%, 0);}
+}
 img.bg2 {
     z-index: 2;
+    animation: mid 25s linear infinite normal;
 }
-
+@keyframes fore{
+    0% {transform: translate(0,0);}
+    100% {transform: translate(100%, 0);}
+}
 img.bg3 {
     z-index: 3;
+    animation: mid 10s linear infinite normal;
 }
 
 /*img.voy {

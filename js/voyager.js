@@ -1,6 +1,6 @@
 function upArrowPressed() {
     var element = document.getElementById("voy");
-    if (parseInt(element.style.top) >= 27)
+    if (parseInt(element.style.top) >= 38)
     {
         element.style.top = parseInt(element.style.top) - 5 + 'px';
     }
@@ -8,7 +8,7 @@ function upArrowPressed() {
 
 function downArrowPressed() {
     var element = document.getElementById("voy");
-    if (parseInt(element.style.top) <= 470)
+    if (parseInt(element.style.top) <= 506)
     {
         element.style.top = parseInt(element.style.top) + 5 + 'px';
     }
