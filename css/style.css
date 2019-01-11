@@ -72,12 +72,12 @@ img.bg3 {
     z-index: 3;
 }
 
-img.voy {
+/*img.voy {
     z-index: 4;
     height: 150px;
     top: 270px;
     left: 470px;
-}
+}*/
 
 img#logo {
     height:35px;
