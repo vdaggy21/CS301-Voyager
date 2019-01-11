@@ -68,7 +68,7 @@ img.bg2 {
     z-index: 2;
 }
 
-img.bg3 {
+.bg3 {
     z-index: 3;
 }
 
@@ -85,3 +85,23 @@ img#logo {
     left: 10px;
     z-index: 99;
 }
+
+.container {
+    overflow: hidden;
+  }
+  
+  .sliding-background {
+    background: url("\\cs1\2021\vdaggy21\CS-301-1-InetAppDev\Voyager\CS301-Voyager\images\VoyagerBackground2.png") repeat-x;
+    height: 550px;
+    width: 3000px;
+    animation: slide 60s linear infinite;
+  }
+  
+  @keyframes slide{
+    0%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1692px, 0, 0);
+    }
+  }
