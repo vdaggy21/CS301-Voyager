@@ -57,36 +57,35 @@ li a:hover:not(.active) {
 img {
     position: fixed;
     top: 50px;
-    left: 0px;
+    left: 0px; 
 }
-
-img.bg {
-    z-index: 1;
-    animation: mid 120s linear infinite normal;
+/*added animation functions for background */
+@keyframes stars{
+    0% {transform: translate(0px,0);}
+    100% {transform: translate(-500px, 0);}
 }
 @keyframes mid{
-    0% {transform: translate(0,0);}
-    100% {transform: translate(-100%, 0);}
-}
-img.bg2 {
-    z-index: 2;
-    animation: mid 25s linear infinite normal;
+    0% {transform: translate(0px,0);}
+    100% {transform: translate(-2000px, 0);}
 }
 @keyframes fore{
-    0% {transform: translate(0,0);}
-    100% {transform: translate(100%, 0);}
+    0% {transform: translate(0px,0);}
+    100% {transform: translate(-2900px, 0);}
 }
-img.bg3 {
-    z-index: 3;
-    animation: mid 10s linear infinite normal;
+img.bg {
+    z-index: 1;
+    animation: stars 60s linear infinite;
 }
 
-/*img.voy {
+img.bg2 {
+    z-index: 2;
+    animation: mid 25s linear infinite;
+}
+
+img.bg3 {
     z-index: 4;
-    height: 150px;
-    top: 270px;
-    left: 470px;
-}*/
+    animation: fore 10s linear infinite;
+}
 
 img#logo {
     height:35px;
