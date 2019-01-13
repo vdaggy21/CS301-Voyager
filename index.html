@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Voyager - Game</title>
         <link href="css/style.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <a href="index.html"><img src="images/Starfleet-logo.gif" alt=logo id="logo" ></a>
+        <a href="index.html"><img src="images/Starfleet-logo.gif" alt=logo id="logo"></a>
         <nav>
             <ul>
                 <li><a href="index.html" class="active">GAME</a></li>
@@ -14,10 +14,10 @@
                 <li><a href="resources.html">RESOURCES</a></li>
             </ul>
         </nav>
- <!--Created img class with pointers in CSS-->  
-        <img class="bg3" src="images/VoyagerBackground3.png" alt=Flaming Asteroids>
-        <img class="bg2" src="images/VoyagerBackground2.png" alt=Asteroids>
-        <img class="bg" src="images/VoyagerBackground.png" alt=Starry sky>
-        <img class="voy" src="images/Voyager_lights.gif" alt=Voyager_gif_with_blinking_lights>
+        <div id="voyager"></div>
+        <input type="button" id="music_button" class="button" value="Music: Off"><audio id="audio1" src="http://voy.trekcore.com/audio/themes/caretaker/10BattleForTheArray.mp3" loop type="audio/mpeg" play></audio></input>
+        <script src="js/voyager.js" defer></script>
+        <script src="js/animation.js" defer></script>
+        <script src="js/music.js" defer></script>
     </body>
 </html>
