@@ -82,15 +82,7 @@ img.bg2 {
     animation: mid 25s linear infinite;
 }
 
-<<<<<<< HEAD
-.bg3 {
-    z-index: 3;
-}
-
-img.voy {
-=======
 img.bg3 {
->>>>>>> 71eff662d6fb7d67b9a289a07c5130ce258a6105
     z-index: 4;
     animation: fore 10s linear infinite;
 }
