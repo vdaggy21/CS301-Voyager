@@ -42,7 +42,7 @@ var context4 = canvas4.getContext("2d");
 var TranslatePosition = 0;
 var bng = document.createElement("img");
 bng.setAttribute("src", "images/VoyagerBackground.png");
-delta = .01;
+delta = .15;
 
 var TranslatePosition2 = 0;
 var bng2 = document.createElement("img");
