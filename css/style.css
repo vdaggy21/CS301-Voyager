@@ -18,7 +18,8 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    border-bottom: solid grey 2px;
+    border-bottom: solid goldenrod 2px;
+    z-index: 47;
 }
 
 /*Sets up the general apperance of the unordered list in nav*/
@@ -59,33 +60,6 @@ img {
     top: 50px;
     left: 0px; 
 }
-/*added animation functions for background */
-@keyframes stars{
-    0% {transform: translate(0px,0);}
-    100% {transform: translate(-500px, 0);}
-}
-@keyframes mid{
-    0% {transform: translate(0px,0);}
-    100% {transform: translate(-2000px, 0);}
-}
-@keyframes fore{
-    0% {transform: translate(0px,0);}
-    100% {transform: translate(-2900px, 0);}
-}
-img.bg {
-    z-index: 1;
-    animation: stars 60s linear infinite;
-}
-
-img.bg2 {
-    z-index: 2;
-    animation: mid 25s linear infinite;
-}
-
-img.bg3 {
-    z-index: 4;
-    animation: fore 10s linear infinite;
-}
 
 img#logo {
     height:35px;
@@ -94,22 +68,36 @@ img#logo {
     z-index: 99;
 }
 
-.container {
-    overflow: hidden;
-  }
-  
-  .sliding-background {
-    background: url("\\cs1\2021\vdaggy21\CS-301-1-InetAppDev\Voyager\CS301-Voyager\images\VoyagerBackground2.png") repeat-x;
-    height: 550px;
-    width: 3000px;
-    animation: slide 60s linear infinite;
-  }
-  
-  @keyframes slide{
-    0%{
-      transform: translate3d(0, 0, 0);
-    }
-    100%{
-      transform: translate3d(-1692px, 0, 0);
-    }
-  }
+
+.myCanvas{
+    position: absolute;
+    top: 50px;
+    left:0;
+    min-width:100%;
+    background-color: transparent;
+    border-top: solid 2px maroon;
+    border-bottom: solid 2px darkblue;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    border: 5px solid darkgreen;
+    position:absolute;
+    top: 750px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button:active {
+    background-color: darkgreen;
+    color: lightgrey;
+    border-color: black;
+}
+
+audio {
+    position: absolute;
+    top: 800px;
+}
